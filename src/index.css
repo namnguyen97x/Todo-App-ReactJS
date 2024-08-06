@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.TodoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.TodoList input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.add-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+ol {
+  margin: 20px auto;
+  font-size: 18px;
+  padding: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 500px;
+  height: auto;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+li {
+  padding: 20px;
+  margin: 5px 0;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: #f9f9f9; /* Light background color */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.text {
+  float: left;
+}
+.btn-group {
+  float: right;
+}
+.btn-group button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #f44336;
+  color: white;
+}
+.btn-group .move-button {
+  background-color: rgb(32, 135, 32);
+}
